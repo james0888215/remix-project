@@ -1,0 +1,1 @@
+window.__remixManifest={"entry":{"module":"/build/entry.client-7KVDBGCK.js","imports":["/build/_shared/chunk-FGZKITOP.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-62C6F3QG.js","hasAction":false,"hasLoader":false,"hasErrorBoundary":false}},"version":"ef26d09a","url":"/build/manifest-EF26D09A.js"};
