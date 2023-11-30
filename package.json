@@ -28,12 +28,16 @@
     "prisma": "^5.6.0",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.1.6"
+    "tsx": "^4.6.1",
+    "typescript": "^5.3.2"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "prisma": {
-    "seed": "ts-node --require tsconfig-paths/register prisma/seed.ts"
+    "seed": "tsx --require tsconfig-paths/register prisma/seed.ts"
+  },
+  "ts-node": {
+    "esm": true
   }
 }
